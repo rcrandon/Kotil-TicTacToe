@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_above="@+id/textViewStatus"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:padding="16dp">
+
+        <!-- Dynamically generated buttons will go here -->
+        <Button
+            android:id="@+id/button00"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button01"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button02"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button10"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button11"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button12"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button20"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button21"
+            style="@style/TicTacToeButton" />
+        <Button
+            android:id="@+id/button22"
+            style="@style/TicTacToeButton" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/turn"
+        android:textSize="@dimen/status_text_size"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/reset_button"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+
+</RelativeLayout>

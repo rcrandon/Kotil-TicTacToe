@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color for app branding -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Indigo 500 -->
+    <!-- Dark variant of the primary color -->
+    <color name="colorPrimaryDark">#303F9F</color> <!-- Indigo 700 -->
+    <!-- Accent color for more emphasis -->
+    <color name="colorAccent">#FF4081</color> <!-- Pink A200 -->
+    <!-- Color for the Tic Tac Toe grid buttons -->
+    <color name="buttonColor">#FFFFFF</color> <!-- White -->
+    <!-- Color for text on the buttons -->
+    <color name="buttonTextColor">#3F51B5</color> <!-- Indigo 500 -->
+    <!-- Color for the game status text -->
+    <color name="statusTextColor">#303F9F</color> <!-- Indigo 700 -->
+    <!-- Background color for the reset button -->
+    <color name="resetButtonColor">#FF4081</color> <!-- Pink A200 -->
+    <!-- Text color for the reset button -->
+    <color name="resetButtonTextColor">#FFFFFF</color> <!-- White -->
+    <!-- Color for the grid lines and button borders -->
+    <color name="gridLineColor">#3F51B5</color> <!-- Indigo 500 -->
+    <!-- Color for the background of the app -->
+    <color name="backgroundColor">#E0E0E0</color> <!-- Grey 300 -->
+    <!-- Color for the text when a button is pressed -->
+    <color name="buttonPressedTextColor">#DEFFFFFF</color> <!-- White with transparency -->
+    <!-- Color for the button background when pressed -->
+    <color name="buttonPressedBackgroundColor">#FFCDD2</color> <!-- Red 100 -->
+</resources>

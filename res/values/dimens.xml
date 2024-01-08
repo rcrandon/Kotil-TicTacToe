@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimension for the text size of the buttons in the Tic Tac Toe grid -->
+    <dimen name="button_text_size">24sp</dimen>
+    <!-- Dimension for the text size of the status TextView -->
+    <dimen name="status_text_size">18sp</dimen>
+    <!-- Dimension for the padding around the grid layout -->
+    <dimen name="grid_layout_padding">16dp</dimen>
+    <!-- Dimension for the margin around the buttons -->
+    <dimen name="button_margin">5dp</dimen>
+    <!-- Dimension for the padding inside the reset button -->
+    <dimen name="reset_button_padding">10dp</dimen>
+    <!-- Dimension for the margin below the status TextView -->
+    <dimen name="status_text_margin_bottom">16dp</dimen>
+    <!-- Dimension for the margin above the reset button -->
+    <dimen name="reset_button_margin_top">16dp</dimen>
+</resources>
